@@ -63,16 +63,16 @@ const routes: Routes = [
                 }
               ]
           },
-          {
-            path: 'contact',
-            children:
-              [
-                {
-                  path: '',
-                  loadChildren: '../contactus/contactus.module#ContactusPageModule'
-                }
-              ]
-          },
+          // {
+          //   path: 'contact',
+          //   children:
+          //     [
+          //       {
+          //         path: '',
+          //         loadChildren: '../contactus/contactus.module#ContactusPageModule'
+          //       }
+          //     ]
+          // },
           // myproducts-root/myproducts-root.module#MyproductsRootPageModule
           {
             path: '',

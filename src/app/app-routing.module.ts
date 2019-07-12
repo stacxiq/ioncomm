@@ -7,6 +7,10 @@ const routes: Routes = [
   { path: 'auth', loadChildren: './auth/auth.module#AuthPageModule' },
   { path: 'buy', loadChildren: './buy/buy.module#BuyPageModule' },
   { path: 'buy-products', loadChildren: './buy-products/buy-products.module#BuyProductsPageModule' },
+  {
+    path: 'buy-products/:id',
+    loadChildren: './buy-products/buy-products.module#BuyProductsPageModule'
+  },
   { path: 'cart', loadChildren: './cart/cart.module#CartPageModule' },
   {
     path: 'cart/:',
